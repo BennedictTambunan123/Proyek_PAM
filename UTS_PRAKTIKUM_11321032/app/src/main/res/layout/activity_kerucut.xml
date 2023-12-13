@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kerucut"
+            android:fontFamily="@font/kanit_medium"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginTop="18dp"
+            android:layout_gravity="center"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:backgroundTint="@color/white"
+                android:layout_marginRight="10dp"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/kerucut"
+                    />
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:fontFamily="@font/kanit_medium"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_marginTop="18dp" />
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:src="@drawable/kerucut_l"
+                />
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:src="@drawable/kerucut_v"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hitung Luas"
+                    android:fontFamily="@font/kanit_medium"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:layout_marginTop="18dp" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="r"
+                        android:fontFamily="@font/kanit_medium"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:layout_margin="10dp" />
+                    <EditText
+                        android:id="@+id/txta"
+                        android:inputType="number"
+                        android:layout_width="40dp"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="t"
+                        android:fontFamily="@font/kanit_medium"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:layout_margin="10dp" />
+                    <EditText
+                        android:id="@+id/txts"
+                        android:inputType="number"
+                        android:layout_width="40dp"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"/>
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btnluas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@color/teal_700"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:text="Hitung"
+                    android:textSize="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="80dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hitung Volume"
+                    android:fontFamily="@font/kanit_medium"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:layout_marginTop="18dp" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="r"
+                        android:fontFamily="@font/kanit_medium"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:layout_margin="10dp" />
+                    <EditText
+                        android:id="@+id/txtka"
+                        android:inputType="number"
+                        android:layout_width="40dp"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="s"
+                        android:fontFamily="@font/kanit_medium"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:layout_margin="10dp" />
+                    <EditText
+                        android:id="@+id/txtks"
+                        android:inputType="number"
+                        android:layout_width="40dp"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="t"
+                        android:fontFamily="@font/kanit_medium"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:layout_margin="10dp" />
+                    <EditText
+                        android:id="@+id/txtkt"
+                        android:inputType="number"
+                        android:layout_width="40dp"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"/>
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/btnkeliling"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@color/teal_700"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/white"
+                    android:text="Hitung"
+                    android:textSize="10dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/teal_700"
+            android:layout_alignParentBottom="true"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_home"
+                    android:layout_marginRight="30dp"
+                    />
+                <ImageView
+                    android:id="@+id/category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_kategory"
+                    android:layout_marginRight="30dp"
+                    />
+                <ImageView
+                    android:id="@+id/profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_profile"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+    <!--    </ScrollView>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

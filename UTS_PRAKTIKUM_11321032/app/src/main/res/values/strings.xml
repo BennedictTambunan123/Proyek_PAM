@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RumusKu</string>
+    <string name="username">User123</string>
+    <string name="no_ktp">0123456789</string>
+    <string name="name">Bennedict Tambunan</string>
+    <string name="no_hp">08345678123</string>
+
+</resources>
